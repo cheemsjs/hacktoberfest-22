@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  text-align: center;
+  background-color: #E9EFC0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #4E944F;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #4E944F;
+  font-family: sans-serif;
+  opacity: 75%;
+}
+
+.drumicon {
+  height: 10rem;
+  width: 10rem;
+  margin: -30px;
+}
+
+.drumcat {
+  position: absolute;
+  height: 169px;
+  width: 240px;
+  margin: -30px;
+}
+
+.d1 {
+  left: 90px;
+  transform: rotateY(180deg);
+}
+
+.d2 {
+  right: 90px;
+}
+
+@media (max-width: 900px) {
+  .drumcat {
+    visibility: hidden;
+  }
+}
+
+.a {
+  background-image: url("/images/tom1.png");
+}
+
+.s {
+  background-image: url("/images/tom3.png");
+}
+
+.d {
+  background-image: url("/images/tom4.png");
+}
+
+.f {
+  background-image: url("/images/tom2.png");
+}
+
+.j {
+  background-image: url("/images/snare.png");
+}
+
+.k {
+  background-image: url("/images/kick.png");
+}
+
+.l {
+  background-image: url("/images/crash.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #83BD75;
+  font-size: 5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 900;
+  color: #83BD75;
+  text-shadow: 3px 0 #A760FF;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
