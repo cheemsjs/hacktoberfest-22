@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url(./pricedown\ bl.otf);
+}
+
+body {
+    background-color: #23272a;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 70px;
+}
+
+.about p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carousel-item {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+}
+
+.carousel-item img {
+    object-fit: scale-down;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ffab00;
+}
+
+#mainNavbar .navbar-brand {
+    font-family: 'Pricedown', sans-serif;
+    color: #ffab00;
+    font-size: 2rem;
+}
+
+.branding {
+    font-family: 'Pricedown';
+}
+
+img {
+    display: flex;
+    margin: 0;
+}
+
+#headingGroup span {
+    color: #ffab00;
+}
+
+#headingGroup h2 {
+    font-size: 3rem;
+}
